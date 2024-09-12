@@ -1,0 +1,114 @@
+* {
+    font-family: "SUSE", sans-serif;
+}
+
+.heading {
+    font-size: 26px;
+    color: cornflowerblue;
+}
+
+nav {
+    display: flex;
+    justify-content: center; 
+    gap: 30px; 
+    margin-top: 20px;
+}
+
+.nav {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav:hover {
+    color: cornflowerblue;
+}
+
+#title {
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#profilepic{
+    margin-right: 50px;
+    margin-left: 10px;
+    width: 700px;
+    height: auto;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column; 
+    width: auto; 
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.text-content p {
+    font-size: 18px;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: auto; 
+}
+
+#home {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid cornflowerblue; 
+    border-radius: 20px;
+    width: 80%; 
+    max-width: 2000px;
+    margin: 0 auto;  
+    align-items: top;
+}
+
+#more {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    padding: 0px 20px;
+}
+
+.icon {
+    width: auto;
+    height: 100px;
+    cursor: pointer;
+}
+
+#current-icons {
+    display: flex;
+    justify-content: space-around; 
+    padding: 20px;
+}
+
+.icon-box:hover .text-box {
+    display: block;
+}
+
+.text-box {
+    display: none; 
+    position: absolute;
+    top: 110px; 
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ul li {
+    margin-bottom: 5px;
+}
